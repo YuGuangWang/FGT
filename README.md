@@ -49,7 +49,12 @@ The composed model \textsc{FGConv-Sum} achieves the following performance on gra
 If you want to cite our paper, please use the citation below:
 
 ```
-
+@article{zheng2020fast,
+  title={Decimated Framelet System on Graphs and Fast $\gph$-Framelet Transforms},
+  author={Zheng, Xuebin and Zhou, Bingxin and Wang, Yu Guang and Zhuang, Xiaosheng},
+  booktitle={arXiv preprint},
+  year={2020}
+}
 ```
 
 ## Contributing
