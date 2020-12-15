@@ -1,7 +1,7 @@
 
 # Decimated Framelet System on Graphs and Fast $\mathcal{G}$-Framelet Transforms
 
-This repository is the official implementation of [Decimated Framelet System on Graphs and Fast $\mathcal{G}$-Framelet Transforms](https://arxiv.org/abs/xxxxxx). 
+This repository is the official implementation of [Decimated Framelet System on Graphs and Fast $\mathcal{G}$-Framelet Transforms](https://arxiv.org/abs/2012.06922). 
 
 ![two_level_fgt](two_level_fgt.png)
 
@@ -52,7 +52,7 @@ If you want to cite our paper, please use the citation below:
 @article{zheng2020fast,
   title={Decimated Framelet System on Graphs and Fast $\gph$-Framelet Transforms},
   author={Zheng, Xuebin and Zhou, Bingxin and Wang, Yu Guang and Zhuang, Xiaosheng},
-  booktitle={arXiv preprint},
+  booktitle={arXiv preprint arXiv:2012.06922},
   year={2020}
 }
 ```
