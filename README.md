@@ -9,7 +9,7 @@ This repository is the official implementation of [Decimated Framelet System on 
 
 ## Decimated Framelets on Road Network
 
-The following figure shows the original graph of [Minnesota road network](http://networkrepository.com/road-minnesota.php) and the plots of the decomposed approximation and detail framelet coefficients with a three-level F$\mathcal{G}$T. We set the number of nodes for the sub-graphs as [1000, 300, 100]. To obtain the plots below, you can use the MATLAB script (road_network/exp2.m).
+The following figure shows the original graph of [Minnesota road network](http://networkrepository.com/road-minnesota.php) and the plots of the decomposed approximation and detail framelet coefficients with a three-level FGT. We set the number of nodes for the sub-graphs as [1000, 300, 100]. To obtain the plots below, you can use the MATLAB script (road_network/exp2.m).
 
 ![road_traffic_network](fgt_minnesota.png)
 
@@ -17,9 +17,9 @@ The following figure shows the original graph of [Minnesota road network](http:/
 
 The script (road_network/exp2.m) relies on the graph partitioning algorithm metismex.m for which you have to obtain the C programs from the [official website](http://glaros.dtc.umn.edu/gkhome/metis/metis/download) first and then follow the steps in [here](https://github.com/dgleich/metismex) to compile the C programs in order to call metismex.m directly from MATLAB.
 
-## Graph Classification with F$\mathcal{G}$T-based Graph Convolution
+## Graph Classification with FGT-based Graph Convolution
 
-We use F$\mathcal{G}$T to define a spectral graph convolution method, for which we name **FGConv**. We investigate the effectiveness of $\textsc{FGConv}$ on the graph classification tasks with the composed GNN model **FGConv-Sum** which has the following architecture: **FGConv - FGConv - SumPool - MLP**.
+We use FGT to define a spectral graph convolution method, for which we name **FGConv**. We investigate the effectiveness of $\textsc{FGConv}$ on the graph classification tasks with the composed GNN model **FGConv-Sum** which has the following architecture: **FGConv - FGConv - SumPool - MLP**.
 
 ### Requirements
 
