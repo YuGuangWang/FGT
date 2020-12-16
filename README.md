@@ -1,7 +1,7 @@
 
 # Decimated Framelet System on Graphs and Fast G-Framelet Transforms
 
-This repository is the official implementation of [Decimated Framelet System on Graphs and Fast $\mathcal{G}$-Framelet Transforms](https://arxiv.org/abs/2012.06922). 
+This repository is the official implementation of [Decimated Framelet System on Graphs and Fast G-Framelet Transforms](https://arxiv.org/abs/2012.06922). 
 
 ![two_level_fgt](two_level_fgt.png)
 
