@@ -41,7 +41,7 @@ You can change other hyperparameters from the script: batch_size, learning_rate,
 
 ###  Results
 
-The composed model *FGConv-Sum* achieves the following performance on graph classification benchmark datasets **MUTAG**, **PROTEINS** and **D&D**. The table below shows the mean test accuracy with SD for 10 repetitions. Compared to existing methods such as *GIN*, *PatchySan*, *GDCNN* and *DIffPool*, the *FGConv-Sum* achieves top test accuracy on two of these datasets. The result on D&D can be obtained using the above .py programs. The test results on other benchmarks and comparison with the results of other methods can be seen in the paper.
+The composed model *FGConv-Sum* achieves the following performance on graph classification benchmark datasets **MUTAG**, **PROTEINS** and **D&D**. The table below shows the mean test accuracy with SD for 10 repetitions. Compared to existing methods such as *GIN*, *PatchySan*, *GDCNN* and *DIffPool*, the *FGConv-Sum* achieves top test accuracy on two of these datasets. The result on **D&D** can be obtained using the above .py programs. The test results on other benchmarks and comparison with the results of other methods can be seen in the paper.
 
 ![graph_classification_fgconv](graph_classification_fgconv.png)
 
@@ -50,7 +50,7 @@ If you want to cite our paper, please use the citation below:
 
 ```
 @article{zheng2020fast,
-  title={Decimated Framelet System on Graphs and Fast $\gph$-Framelet Transforms},
+  title={Decimated Framelet System on Graphs and Fast $\mathcal{G}$-Framelet Transforms},
   author={Zheng, Xuebin and Zhou, Bingxin and Wang, Yu Guang and Zhuang, Xiaosheng},
   booktitle={arXiv preprint arXiv:2012.06922},
   year={2020}
