@@ -5,13 +5,13 @@ This repository is the official implementation of [Decimated Framelet System on 
 
 ![two_level_fgt](two_level_fgt.png)
 
-The figure above demonstrates a system of two-level $\mathcal{G}$-framelet decomposition and reconstruction, which is based on the filter banks $\{a_{j-1}; b^{(1)}_{j-1}, \ldots, b^{(r_{j-1})}_{j-1}\}$ and $\{a_{j}; b^{(1)}_{j}, \ldots, b^{(r_{j})}_{j}\}$. Input graph signal is decomposed using convolutions ($*$) with filters and possible downsampling ($\downarrow$) to output filtered coefficient sequences. The decomposed coefficient sequence from using the low-pass filter $a_{j}$ can further be decomposed into sequences of approximation and detail coefficients. These coefficient sequences will be processed before reconstruction that uses the same filter bank. Here $+_{r}$ is the summation over the low-pass filtered coefficient sequence and high-pass filtered coefficient sequences.
+![two_level_fgt_cap](filter_bank_2layers.png)
 
 ## Decimated Framelets on Road Network
 
 The following figure shows the original graph of [Minnesota road network](http://networkrepository.com/road-minnesota.php) and the plots of the decomposed approximation and detail framelet coefficients with a three-level F$\mathcal{G}$T. We set the number of nodes for the sub-graphs as [1000, 300, 100]. To obtain the plots below, you can use the MATLAB script (road_network/exp2.m).
 
-![road_traffic_network](road_traffic_network.png)
+![road_traffic_network](fgt_minnesota.png)
 
 ### Requirements
 
