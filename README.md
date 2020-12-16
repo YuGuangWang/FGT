@@ -19,7 +19,7 @@ The script (road_network/exp2.m) relies on the graph partitioning algorithm meti
 
 ## Graph Classification with FGT-based Graph Convolution
 
-We use FGT to define a spectral graph convolution method, for which we name **FGConv**. We investigate the effectiveness of $\textsc{FGConv}$ on the graph classification tasks with the composed GNN model **FGConv-Sum** which has the following architecture: **FGConv - FGConv - SumPool - MLP**.
+We use FGT to define a spectral graph convolution method, for which we name **FGConv**. We investigate the effectiveness of *FGConv* on the graph classification tasks with the composed GNN model *FGConv-Sum* which has the following architecture: *FGConv - FGConv - SumPool - MLP*.
 
 ### Requirements
 
@@ -31,9 +31,9 @@ pip install -r requirements.txt
 
 ### Training and Evaluation
 
-To train and test the model **FGConv-Sum** in the paper, run the following command. We provide the codes for **FGConv-Sum** on one of the benchmarks (D&D) from Table 6. The dataset will be downloaded and preprocessed before training. All the experiments were performed using [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric) and run on the NVIDIA Tesla V100 GPU with 5,120 CUDA cores and 16GB HBM2 mounted on a high performance computing cluster.
+To train and test the model *FGConv-Sum* in the paper, run the following command. We provide the codes for *FGConv-Sum* on one of the benchmarks (**D&D**) from Table 6. The dataset will be downloaded and preprocessed before training. All the experiments were performed using [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric) and run on the NVIDIA Tesla V100 GPU with 5,120 CUDA cores and 16GB HBM2 mounted on a high performance computing cluster.
 
-To re-produce the result of **FGConv-Sum** on graph classification benchmark D&D, we can run:
+To re-produce the result of *FGConv-Sum* on graph classification benchmark **D&D**, we can run:
 ```
 python fgconv_dd.py
 ```
@@ -41,7 +41,7 @@ You can change other hyperparameters from the script: batch_size, learning_rate,
 
 ###  Results
 
-The composed model **FGConv-Sum** achieves the following performance on graph classification benchmark datasets MUTAG, PROTEINS and D&D. The table below shows the mean test accuracy with SD for 10 repetitions. Compared to existing methods such as **GIN**, **PatchySan**, **GDCNN** and **DIffPool**, the **FGConv-Sum** achieves top test accuracy on two of these datasets. The result on D&D can be obtained using the above .py programs. The test results on other benchmarks and comparison with the results of other methods can be seen in the paper.
+The composed model *FGConv-Sum* achieves the following performance on graph classification benchmark datasets **MUTAG**, **PROTEINS** and **D&D**. The table below shows the mean test accuracy with SD for 10 repetitions. Compared to existing methods such as *GIN*, *PatchySan*, *GDCNN* and *DIffPool*, the *FGConv-Sum* achieves top test accuracy on two of these datasets. The result on D&D can be obtained using the above .py programs. The test results on other benchmarks and comparison with the results of other methods can be seen in the paper.
 
 ![graph_classification_fgconv](graph_classification_fgconv.png)
 
