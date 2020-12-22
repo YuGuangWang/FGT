@@ -19,7 +19,7 @@ The script (road_network/exp2.m) relies on the graph partitioning algorithm meti
 
 ## Graph Classification with FGT-based Graph Convolution
 
-We use FGT to define a spectral graph convolution method, for which we name **FGConv**. We investigate the effectiveness of *FGConv* on the graph classification tasks with the composed GNN model *FGConv-Sum* which has the following architecture: *FGConv - FGConv - SumPool - MLP*.
+We use FGT to define a spectral graph convolution method, for which we name *FGConv*. We investigate the effectiveness of *FGConv* on the graph classification tasks with the composed GNN model *FGConv-Sum* which has the following architecture: *FGConv - FGConv - SumPool - MLP*.
 
 ### Requirements
 
