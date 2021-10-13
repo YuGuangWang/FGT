@@ -115,7 +115,7 @@ patsy==0.5.1
 pexpect==4.8.0
 phylo-treetime==0.7.6
 pickleshare==0.7.5
-Pillow==8.1.1
+pillow>=8.3.2
 pluggy==0.13.1
 plyfile==0.7.2
 portalocker==1.7.0
